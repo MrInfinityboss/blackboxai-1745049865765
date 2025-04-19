@@ -1,0 +1,19 @@
+name: credit_score_app
+description: A Flutter app to help students build credit score without credit cards and help credit card holders improve their credit score.
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.3
+  font_awesome_flutter: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
